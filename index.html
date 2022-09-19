@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ingrid S. Laureano">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/tecnologia.png" type="image/x-icon">
+    <title>TecBlog - O seu site de tecnologia</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./src/img/logo.png" alt="TecBlog">
+        </div>
+        <nav class="menu-principal">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Jogos</a></li>
+                <li><a href="">Celulares</a></li>
+                <li><a href="">Informática</a></li>
+                <li><a href="">Eletrônicos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="area-postagens">
+            <section class="post">
+                <h2>Novo iPhone SE ganha 5G e processador do iPhone 13 sem mudar design de 2017</h2>
+                <span class="data-post"> Postado em 20 de março</span>
+                <img class="img-post" src="./src/img/iphone.png">				
+				<p class="text"> Aparelho de entrada da família, iPhone SE mantém carinha de iPhone 8, ganha novidades de modelos mais recentes e fica um pouco mais caro.</p>
+				<a class="leia-mais" href="Iphone.html">Leia mais</a>
+            </section>
+            <section class="post">
+                <h2>Disney+ terá plano com anúncios e Netflix cogita o mesmo: “nunca diga nunca”</h2>
+				<span class="data-post"> Postado em 10 de março</span>
+				<img class="img-post" src="./src/img/disnet.jpg">	
+				<p class="text"> Por ora, Netflix não pretende imitar plano do Disney+ de ter assinatura barata que exibe anúncios, mas não descarta essa possibilidade.</p>
+				<a class="leia-mais" href="Iphone.html">Leia mais</a>
+
+            </section>
+        
+            <section class="post formulario">
+                <form action="."> 
+                    <fieldset>
+                        <legend>Cadastro:</legend>
+            
+                        <div class="form">
+                            <label>Nome:</label>
+                        <input type="text" placeholder="Informe o nome" title="Informe o nome">
+                        <label>Sobrenome:</label>
+                        <input type="text" placeholder="Informe o sobrenome">
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                        <br>
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha">
+                        <label >Repita senha:</label>
+                        <input type="password">
+                        </div>
+            
+                    </fieldset>
+                    <fieldset>
+                        <legend>Dados pessoais:</legend>
+                
+                        <div class="form">
+                        <label>Seus assuntos favoritos:</label>
+                        <br>
+                        <input type="checkbox" name="assunto-favorito">
+                        <label for="assunto-favorito">Jogos</label>
+                        <input type="checkbox" name="assunto-favorito">
+                        <label for="assunto-favorito">Informática</label>
+                        <input type="checkbox" name="assunto-favorito">
+                        <label for="assunto-favorito">Celulares</label>
+                        <input type="checkbox" name="assunto-favorito">
+                        <label for="assunto-favorito">Eletrônicos</label>
+                        <br>
+                        <label>Data de Nascimento:</label>
+                        <input type="date" name="dt-nascimento">
+                        <br>
+                        <label>Sexo:</label>
+                        
+                        <label>
+                             <input type="radio" value="Feminino">
+                            Feminino
+                        </label>
+                        <label> 
+                            <input type="radio" value="Masculino">
+                            Masculino
+                        </label>
+                        <br>
+                        <label>CPF:</label>
+                        <input type="text" name="cpf" title="Preencha o CPF" pattern="/^[0-9]{3}.?[0-9]{3}.?[0-9]{3}.?[0-9]{2}/">
+                        <br>
+                        <label>Telefone:</label>
+                        <input type="tel" name="telefone">
+                        <br>
+                        <label>Estado: </label>
+                        <select name="estado" id="estado">
+                            <option>RS</option>
+                            <option>CE</option>
+                            <option>BA</option>
+                            <option>GO</option>
+                            <option>AL</option>
+                            <option>TO</option>
+                        </select>
+                        <br>
+                        <label>Cidade:</label>
+                        <select name="estado" id="estado">
+                            <option>Rio Grande</option>
+                            <option>Pelotas</option>
+                            <option>São Gabriel</option>
+                            <option>Porto Alegre</option>
+                        </select>
+                        <br>
+                        <label>Rua: </label>
+                        <input type="text" name="rua" id="rua">
+                        <br>
+                        <label>Número: </label>
+                        <input type="number" name="numero-rua" id="numero-rua">
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="botao">Cadastrar</button>
+                </form>
+            </section>
+        </article>
+        <nav class="area-lateral">
+            <div class="conteudo-lateral"> 
+                <h3>Categorias</h3>
+                <div class="link-lateral">
+                <a href="">Jogos</a><br>
+                <a href="">Celulares</a><br>
+                <a href="">Informática</a><br>
+                <a href="">Eletrônicos</a><br>
+                </div>
+            </div>
+            <div class="conteudo-lateral">
+                <h3>Postagens recentes</h3>
+                
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
+
+                <div class="postagem-lateral" style="border-bottom: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="">Leia mais</a>
+                </div>
+
+            </div>
+        </nav>
+    </main>
+    <footer>
+        Feito por Ingrid Laureano
+    </footer>
+    
+</body>
+</html>

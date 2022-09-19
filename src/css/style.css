@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+body{ 
+    background-color: #E6E6FA ; 
+    font-size: 1em;
+    font-family: 'Lexend', sans-serif;
+}
+
+.header{
+	background: #5361A4; 
+	height: 180px; 
+	padding: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    width: 920px;
+    margin: auto; 
+    padding: 15px; 
+}
+
+/* Formatação de links */
+a{
+    text-decoration: none;
+    color: #000;
+}
+.menu-principal a { 
+    color:#FFF;
+}
+.menu-principal ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-principal li {
+    padding: 8px 25px;
+    border-radius: 2px;
+}
+
+.menu-principal li:hover {
+    background: #3f4b8a;
+}
+
+
+/* Area de postagens */
+h2{
+    color:#5361A4; 
+    padding: 5px;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background: whitesmoke;
+}
+
+.data-post{
+    font-size: 0.8em; 
+    margin-bottom: 20px;
+    margin-left: 5px;
+    display: block;
+}
+
+.img-post {
+    width: 100%;
+}
+.text {
+    margin:10px 0px ;
+    padding: 2px;
+}
+
+.leia-mais {
+    background-color: #D0A9F5;
+    padding: 8px 12px;
+    border-radius: 2px;
+}
+
+/* Area lateral */
+h3{
+    background-color:#D0A9F5;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+.area-lateral{ 
+    width: 240px; 
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 10px;
+	border-bottom: 1px dotted #CCC;
+}
+/* Formatação link lateral */
+.link-lateral {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.link-lateral a:hover {
+    text-decoration: underline;
+}
+.form {
+    margin: 10px 8px;
+}
+input, select, button {
+    margin: 8px;
+}
+ 
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: px;
+}
+
+.botao {
+    background-color: #D0A9F5;
+    padding: 8px 12px;
+    border-radius: 4px; 
+    border: none; 
+}
+
+footer{ 
+    background: #DCD7E3; 
+    clear: both; 
+    text-align: center; 
+    padding: 15px;
+}
